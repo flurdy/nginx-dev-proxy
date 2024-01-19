@@ -3,7 +3,7 @@ version: '2'
 services:
   localproxy:
     image: nginx:stable-alpine
-    container_name: nginx
+    container_name: localproxy
     restart: always
     network_mode: host
     ports:
